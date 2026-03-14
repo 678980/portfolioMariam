@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script 
+      type="module" 
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+  </head>
+  <body>
+
+    <header class="header">
+
+      <a href="#home" class="logo">
+         SOFTWARE <span>Engineer</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradiant-button">Contact Me</button>
+
+   </header>
+   <section class="home" id="home">
+      <div class="home-content">
+         <h1>Welcome to <span>Mariam Tarek</span> </h1>
+         <h3>I'm a <span>SOFTWARE Engineer </span></h3>
+         <p>
+            Based in <span>Egypt</span>Software Engineer & Full Stack Developer specialized in creating high-performance, responsive web solutions. I bridge the gap between complex backend logic and seamless frontend experiences to deliver scalable, end-to-end digital products."
+         </p>
+
+         <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mariam-tarek-aa153b2b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+         <a href="https://github.com/678980" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-github"></i>
+         </a>
+
+         <a href="mariemt640@gmail.com" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-gmail"></i>
+         </a>
+
+         <a href="https://wa.me/2001559104998" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-whatsapp"></i>
+         </a>
+      </div>
+
+
+         <div class="btn-group">
+            <a href="./Mariam Tarek _cv.pdf" class="btn" target="_blank" rel="noopener noreferrer">See my CV</a>
+            <a href="https://wa.me/2001559104998" class="btn">Contact</a>
+         </div>
+
+      </div>
+
+<!-- رائد فضاء 3D -->
+      <div class="home-img">
+         <div class="stars-bg"></div>
+         <model-viewer 
+            src="Portfolio\Portfolio\scene.gltf" 
+            alt="3D Astronaut"
+            auto-rotate 
+            camera-controls
+            autoplay 
+            style="width: 400px; height: 400px;"
+            rotation-per-second="60deg"
+         ></model-viewer>
+
+   </div>
+
+   </section>
+
+   <section class="about" id="about">
+      <div class="about-content">
+         <h2>About <span>Me</span></h2>
+
+         <p>
+            I’m <strong><span>Mariam Tarek</span></strong>, a <strong>Software Engineer</strong> a Computer Science undergraduate at
+            <strong>Al Shorouk Academy</strong>.<br><br>
+
+​"I am a Software Engineering student at El Shorouk Academy, passionate about building complete, high-performance web applications. I specialize in creating seamless digital experiences by bridging the gap between robust backend logic and modern, responsive frontend designs. From initial architecture to final deployment, I am dedicated to delivering scalable and user-centric web solutions
+            <br><br>
+            <p>I’m always eager to explore new technologies, solve challenging problems, 
+            and deliver data-driven solutions that make a real impact.
+         </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="about-img">
+         <img src="./mariam.jpeg" alt="Photo">
+      </div>
+   </section>
+
+
+   <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+         <div class="skill-box">
+               <i class="fa-solid fa-code"></i>
+               <h4>Coding</h4>
+               <div class="tools-logos">
+                  <img src="download.jpg" alt="Python">
+                  <img src="download.png" alt="React">
+                  <img src="images.jpg" alt="c++">
+                  <img src="./images.png" alt="web site">
+                  <img src="./images (2).jpg" alt="Deep Learning">
+                  <img src="./images (1).jpg" alt="NLP">
+                  <img src="./download (1).jpg" alt="Python Libraries">
+            </div>
+         </div>
+
+         <div class="skill-box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>Frontend</h4>
+            <div class="tools-logos">
+               <img src="Bootstrab.jpg" alt="Matplotlib">
+               <img src="typescript.png" alt="seaborn">
+               <img src="java script fundamentals.jpg" alt="Power Point">
+               <img src="download.png" alt="Figma">
+               <img src="images.png" alt="Matplotlib">
+               <img src="download.png" alt="Streamlit">
+            </div>
+         </div>
+
+         <div class="skill-box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>Backend</h4>
+            <div class="tools-logos">
+               <img src="Bootstrab.jpg" alt="gemini">
+               <img src="Docker.png" alt="claude">
+               <img src="nodejs.png" alt="Chat GPT">
+               <img src="git.jpg" alt="Git">
+               <img src="github.jpg" alt="Github">
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="projects" id="projects">
+      <h2 class="heading">MY <span>Projects</span></h2>
+      <div class="projects-box">
+
+<a href="https://github.com/678980/HONEYBEE.git" 
+   target="_blank" 
+   class="project-card">
+
+   <img src="./Sarasota_Honey_Company_aypk27.webp" alt="Hony combany">
+
+   <div class="project-overlay">
+      <h3>Hony Combany</h3>
+   </div>
+
+   <a href="https://github.com/678980/calculator.git" 
+   target="_blank" 
+   class="project-card">
+
+   <img src="./calculator.png" alt="Laptop Price Prediction">
+
+   <div class="project-overlay">
+      <h3>Calculator</h3>
+   </div>
+
+</a>
+
+<a href="https://github.com/678980/mariam.git" 
+   target="_blank" 
+   class="project-card">
+
+   <img src="auto parts.jpg" alt="Car Price Prediction">
+
+   <div class="project-overlay">
+      <h3>Auto Parts</h3>
+   </div>
+
+</a>
+
+<a href="https://github.com/678980/HONEYBEE.git" 
+   target="_blank" 
+   class="project-card">
+
+   <img src="./Sarasota_Honey_Company_aypk27.webp" alt="Loan Status Prediction">
+
+   <div class="project-overlay">
+      <h3>Hony Combany</h3>
+   </div>
+
+</a>
+
+
+      </div>
+   </section>
+
+   <section class="certifications" id="certifications">
+
+   <h2 class="heading">My <span>Certifications</span></h2>
+
+   <div class="projects-box">
+
+      <!-- Certification 1 -->
+      <a href="certi name" target="_blank" class="project-card">
+
+         <img src="nti.jpeg" alt="Nti_certification">
+
+         <div class="project-overlay">
+            <h3>Nti_certification Full Stack</h3>
+         </div>
+
+      </a>
+
+
+      <!-- Certification 2 -->
+      <a href="certi name" target="_blank" class="project-card">
+
+         <img src="SAIt.jpeg" alt=" Huawei_certification Machine Learning">
+
+         <div class="project-overlay">
+            <h3>Web Develobment fundamentals Camb</h3>
+         </div>
+
+      </a>
+
+
+      <!-- Certification 3 -->
+      <a href="certi name" target="_blank" class="project-card">
+
+         <img src="GDSC.jpeg" alt="Nvidia_certification ">
+
+         <div class="project-overlay">
+            <h3>GDSC_certification Frontend</h3>
+         </div>
+
+      </a>
+
+            <!-- Certification 4 -->
+      <a href="" target="_blank" class="project-card">
+
+         <img src="BANK.jpeg" alt="IEEE_Certification ">
+
+         <div class="project-overlay">
+            <h3>Housing-Develobment camb</h3>
+         </div>
+
+      </a>
+
+      </a>
+
+            <!-- Certification 4 -->
+      <!-- <a href="" target="_blank" class="project-card">
+
+         <img src="data_camp_certfication.jpg" alt="data_camp_certification ">
+
+         <div class="project-overlay">
+            <h3>data_camp_certification</h3>
+         </div>
+</a>
+
+            <!-- Certification 4 -->
+      <!-- <a href="" target="_blank" class="project-card">
+
+         <img src="udemy1.jpg" alt="udemy_certification ">
+
+         <div class="project-overlay">
+            <h3>udemy_certification</h3>
+         </div>
+</a> -->
+
+            <!-- Certification 4 -->
+      <!-- <a href="" target="_blank" class="project-card">
+
+         <img src="udemy2.jpg" alt="udemy_certification ">
+
+         <div class="project-overlay">
+            <h3>udemy_certification</h3>
+         </div>
+</a> -->
+
+            <!-- Certification 4 -->
+      <!-- <a href="" target="_blank" class="project-card">
+
+         <img src="udemy3.jpg" alt="udemy_certification ">
+
+         <div class="project-overlay">
+            <h3>udemy_certification</h3>
+         </div>
+
+      </a> -->
+
+   </div> 
+
+</section>
+
+   <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://formspree.io/f/xwpwdqpw" method="POST">
+      <form action="https://formspree.io/f/xnjgjaqd" method="POST">
+      <div class="input-group">
+         <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+         </div>
+         <div class="input-box">
+            <input type="number" name="phone" placeholder="Phone Number">
+            <input type="text" name="subject" placeholder="Subject">
+         </div>
+      </div>
+
+      <div class="input-group-2">
+         <textarea name="message" placeholder="Your Message" required></textarea>
+         <input type="submit" value="Send Message" class="btn">
+      </div>
+      </form>
+
+      </div>
+   </section>
+
+   <footer class="footer">
+         <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mariam-tarek-aa153b2b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="https://github.com/678980" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="mailto:mariemt640@gmail.com" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-gmail"></i>
+            </a>
+
+            <a href="https://wa.me/2001559104998" target="_blank" rel="noopener noreferrer">
+               <i class="bx bxl-whatsapp"></i>
+            </a>
+         </div>
+
+
+   </footer>
+
+
+
+
+</body>
+
+</html>
